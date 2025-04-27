@@ -1,14 +1,23 @@
-//GENERAL
+/* APPLY GENERAL STYLES TO THE WHOLE DOCUMENT */
 *{
 	margin: 0px;
 	padding: 0px;
-	background-color: #0000ff;
 	font-family: arial;
 }
 
-//LINKS
-a{
+p{
 
+padding-top: 2%;
+
+}
+
+h1{
+
+	padding-top: 3%;
+
+}
+
+a{
 	color: #ff0000;
 	text-decoration: none;
 
@@ -16,11 +25,71 @@ a{
 a:active{
 
 	color: black;
-	background-color: #411141;
+	background-color: #024c27;
+
+}
+img{
+
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
 
 }
 
-//TESTS
-h1{
-	background-color: #00ff00;
+
+.body{
+
+	padding: 5%;
+
+}
+.linkblock{
+	color:black;
+
+}
+.block{
+	padding-bottom:1%;
+	border-style: solid;
+	border-color: black;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+/* STYLES FOR THE .JS BANNER, I.E. APPLIES TO THE TOP PORTION OF THE PAGE */
+
+.pageBanner{
+
+	height: 120px;
+	background-color: black;
+
+}
+
+.pageUnderBanner{
+
+	height: 90px;
+	background-color: black;
+
+}
+
+.menuItem{
+	
+	color: black;
+	background-color: #ffffff;
+	font-size: 1.67vw;
+	display: inline;
+	float: left;
+	width: 25%;
+	text-align: center;
+
+}
+.menu{
+	
+
+}
+.menuItem:active{
+	background-color: #024c27;
+}
+.menuLink{
+	width: 25%;
 }
